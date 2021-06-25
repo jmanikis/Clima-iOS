@@ -10,7 +10,7 @@
 		69203659266963A900ED4798 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69203658266963A800ED4798 /* WeatherManager.swift */; };
 		6920365B266971C600ED4798 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920365A266971C600ED4798 /* WeatherData.swift */; };
 		6920365D2669794500ED4798 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6920365C2669794500ED4798 /* WeatherModel.swift */; };
-		698DE65026869098003859A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DE64F26869098003859A7 /* Constants.swift */; };
+		698DE65226869446003859A7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698DE65126869446003859A7 /* Constants.swift */; };
 		ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B0231BBFAF00365194 /* AppDelegate.swift */; };
 		ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */; };
 		ADAA27B5231BBFAF00365194 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAA27B4231BBFAF00365194 /* WeatherViewController.swift */; };
@@ -24,7 +24,7 @@
 		69203658266963A800ED4798 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherManager.swift; path = Clima/WeatherManager.swift; sourceTree = SOURCE_ROOT; };
 		6920365A266971C600ED4798 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherData.swift; path = Clima/WeatherData.swift; sourceTree = SOURCE_ROOT; };
 		6920365C2669794500ED4798 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeatherModel.swift; path = Clima/WeatherModel.swift; sourceTree = SOURCE_ROOT; };
-		698DE64F26869098003859A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		698DE65126869446003859A7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		ADAA27AD231BBFAF00365194 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAA27B0231BBFAF00365194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAA27B2231BBFAF00365194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 				ADAA27B9231BBFB300365194 /* Assets.xcassets */,
 				ADAA27BB231BBFB300365194 /* LaunchScreen.storyboard */,
 				ADAA27BE231BBFB300365194 /* Info.plist */,
-				698DE64F26869098003859A7 /* Constants.swift */,
+				698DE65126869446003859A7 /* Constants.swift */,
 			);
 			path = Clima;
 			sourceTree = "<group>";
@@ -182,8 +182,8 @@
 				6920365B266971C600ED4798 /* WeatherData.swift in Sources */,
 				ADAA27B1231BBFAF00365194 /* AppDelegate.swift in Sources */,
 				69203659266963A900ED4798 /* WeatherManager.swift in Sources */,
-				698DE65026869098003859A7 /* Constants.swift in Sources */,
 				6920365D2669794500ED4798 /* WeatherModel.swift in Sources */,
+				698DE65226869446003859A7 /* Constants.swift in Sources */,
 				ADAA27B3231BBFAF00365194 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
